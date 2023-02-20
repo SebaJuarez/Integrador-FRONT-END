@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.imagen-codoAcodo-nav {
+    width: 120px;
+}
+
+.imagen-ba1 {
+    object-position: center;
+    object-fit: cover;
+    max-height: 600px;
+    filter: brightness(50%);
+}
+
+.texto-dentro-de-imagen {
+    position: absolute;
+    top: 50%;
+    left: 72%;
+    transform: translate(-50%,-50%);
+    width: 600px;
+    min-width: 400px;
+    color: white;
+    font-size: 1.3rem;
+}
+
+.seleccion-descuento:hover{
+    cursor: pointer;
+}
+
+
+.botones-dentro-de-imagen button {
+    font-size: 1.3rem;
+}
+
+.slide_left_azul:hover{
+    box-shadow: inset 0 0 300px #5785f0;
+}
+.slide_left_verde:hover{
+    box-shadow: inset 0 0 300px #50e19f;
+}
+.slide_left_amarillo:hover{
+    box-shadow: inset 0 0 300px #ecfb61;
+}
+
+.button_slide_azul {
+    border-radius: 0px;
+    box-shadow: inset 0 0 0 0 #2b5dd3;
+    transition: ease-out 0.4s;
+  }
+
+  .button_slide_verde {
+    border-radius: 0px;
+    box-shadow: inset 0 0 0 0 #15bb70;
+    transition: ease-out 0.4s;
+  }
+
+  .button_slide_amarillo {
+    border-radius: 0px;
+    box-shadow: inset 0 0 0 0 #c9dd16;
+    transition: ease-out 0.4s;
+  }
+
+.imagen-oradores {
+    width: 300px;
+    min-width: none;
+}
+
+footer{
+    background: linear-gradient(to right, rgba(26,55,69,1) 0%, rgba(46,117,148,1) 100%);
+}
+
+@media screen and (max-width: 990px) {
+    .contenedor-oradores {
+        width: 100% !important;
+    }
+    
+    .card{
+        margin-right: 0 !important;
+    }
+
+    .contenedor-formulario {
+        width: 75% !important;
+    }
+
+    .imagen-ba1{
+        object-position: inherit;
+    }
+
+}
